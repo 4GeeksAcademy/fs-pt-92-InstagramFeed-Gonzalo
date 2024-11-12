@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+
+.post {
+    height: 600px;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.post-header{
+    display: flex;
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+}
+
+.user-info{
+    display: flex;
+    padding: 5px 0px 0px 15px;
+}
+
+.user-info > i{
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.user-info > div{
+    margin-left: 10px;
+}
+
+.user-info > div> p{
+    margin: 0;
+}
+
+.options{
+    margin: auto 0px auto auto;
+    padding-right: 15px;
+    font-size: 30px;
+}
+
+.post-image > img{
+    width: 100%;
+    height: auto;
+}
+
+.icons{
+    display: flex;
+    padding: 10px 0px 0px 10px;
+    font-size: 25px;
+}
+
+.icons-right{
+    margin-right: 0;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.post-body{
+    background-color: white;
+}
+
+.likes {
+    padding-top: 15px;
+}
+
+.likes > p{
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.caption {
+    padding: 15px 0px 15px 10px;
+}
+
+.caption > p{
+    margin: 0px;
+}
